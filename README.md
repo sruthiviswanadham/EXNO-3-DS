@@ -46,7 +46,8 @@ from sklearn.preprocessing import LabelEncoder,OrdinalEncoder
 pm=['Hot','Warm','Cold']
 oe=OrdinalEncoder(categories=[pm])
 oe.fit_transform(df[["ord_2"]])
-```![image](https://github.com/user-attachments/assets/36e1b9c2-2ade-46e9-9eaa-3ff5d5b3b901)
+```
+![image](https://github.com/user-attachments/assets/36e1b9c2-2ade-46e9-9eaa-3ff5d5b3b901)
 
 ```
  df['bo2']=oe.fit_transform(df[["ord_2"]])
